@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #02ddf53e;
+    padding-bottom: 10px;
+    z-index: 3;
+    background-color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header ul {
+    display: flex;
+    column-gap: 20px;
+}
+.header a:hover{
+    color: #0082F4;
+}
+.header a{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #000000;
+}
+.header button{
+    width: 161px;
+    height: 52px;
+    border-radius: 6px;
+    background-color:  #0082F4;
+    border: none;
+    color: white;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+.business{
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    justify-content: space-between;
+}
+.blue{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29.3px;
+    color: #0080FD;
+}
+.business-left h2{
+    font-weight: 700;
+    font-size: 60.55px;
+    line-height: 75px;
+    color: #000000;
+}
+.business-left p{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    color:#000000 ;
+    padding-bottom: 20px;
+}
+.for-button{
+    display: flex;
+   align-items: center;
+   column-gap: 40px;
+}
+.left-button{
+   width: 161px; 
+   height: 52px;
+   border-radius:6px;
+   border: none;
+   color: white;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23.44px;
+   background-color: #0082F4;
+}
+.right-button{
+    display: flex;
+    align-items: center;
+    width: 161px; 
+    height: 52px;
+    border-radius:6px;
+    border: none;
+    color: #000000;
+    background-color: white;
+    border: 1px solid #02ddf53e;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+.business-left span{
+    color: #0082F4;
+}
+.business-right{
+    width: 500px;
+    height: 500px;
+}
+.business2{
+    display: flex;
+    align-items: center;
+    padding-top: 130px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.section2{
+    padding-top: 100px;
+}
+.section2 h3{
+    text-align: center;
+    font-weight: 500;
+    font-size: 48.44px;
+    line-height: 72.66px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.for-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.work{
+    width: 324px;
+    height: 346px;
+    text-align: center;
+}
+.work h4{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36.4px;
+    color: #000000;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.work p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+.customers h4{
+    font-weight: 500;
+    font-size: 48.44px;
+    line-height: 72.66px;
+    color: #000000;
+}
+.strelka{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #02ddf53e;
+}
+.customer-img{
+    display: flex;
+    column-gap: 30px;
+    position: relative;
+}
+.product{
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+.left-product{
+    display: flex;
+    width: 420px;
+    height: 283px;
+    border-radius: 6px;
+    border: 1px solid  #02ddf53e;
+}
+.left-a{
+    width: 62px;
+    background-color: #0082F4;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.left-a img{
+    position: absolute;
+    top:130px;
+    left: 30px;
+}
+.left-b p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.left-b h4::before{
+    content: '';
+    width: 30px;
+    height: 1px;
+    background-color: #000000;
+    display: inline-block;
+    
+}
+.left-b h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.left-b span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: darkgray;
+    padding-left: 90px;
+}
+.newsletter{
+    font-weight: 500;
+    font-size: 31.25px;
+    line-height: 36.62px;
+    text-align: center;
+    color: #058AFF;
+    padding-bottom: 10px;
+}
+.newsletter-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23.44px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 20px;
+}
+.nex-box{
+    width: 487px;
+    height: 82px;
+    border-radius:6px;
+    border: 1px solid #02ddf53e;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+}
+.nex-box span{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #000000;
+}
+.nex-box button{
+    width: 102px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #0082F4;
+    color: white;
+    border: none;
+}
+.pre-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left:  20px;
+    margin-right: 20px;
+}
+.ocean p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+.foot-ul p{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+    color: #000000;
+}
+.foot-ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+footer{
+    height: 120px;
+    width: 100%;
+    background: linear-gradient(180deg, #058AFF 0%, rgba(57, 55, 206, 0.87) 97.91%);
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 0;
+}
+.footer p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.footer button{
+    width: 131px;
+    height: 52px;
+    border-radius: 6px;
+    background-color: white;
+    color: #3C61E1;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    border: none;
+}
+.footer span{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
